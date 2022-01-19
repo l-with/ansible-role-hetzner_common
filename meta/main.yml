@@ -1,7 +1,7 @@
 ---
 
 galaxy_info:
-  role_name: hetzner-common
+  role_name: hetzner_common
   description: basic changes for hcloud servers
   author: l_with
   license: MIT
