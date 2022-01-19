@@ -4,7 +4,7 @@
   ansible.builtin.lineinfile:
     path:          /etc/hosts
     search_string: '127.0.1.1'
-    line:          "127.0.1.1 {{ ansible_host_name }}"
+    line:          "127.0.1.1 {{ inventory_hostname_short }}"
     owner: root
     group: root
     mode: '0644'
