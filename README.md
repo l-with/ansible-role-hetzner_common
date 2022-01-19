@@ -1,0 +1,2 @@
+# Ansible Role Hetzner Common
+
