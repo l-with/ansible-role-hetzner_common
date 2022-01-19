@@ -1,0 +1,14 @@
+---
+
+galaxy_info:
+  role_name: hetzner-common
+  description: basic changes for hcloud servers
+  author: l_with
+  license: MIT
+  min_ansible_version: '2.9'
+  platforms:
+  - name: Ubuntu
+    versions:
+      - focal
+
+...

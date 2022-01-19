@@ -1,0 +1,12 @@
+---
+
+- name: Ensure /etc/hosts does not contain resolving FQDN to 127.0.1.1
+  ansible.builtin.lineinfile:
+    path:          /etc/hosts
+    search_string: '127.0.1.1'
+    line:          "127.0.1.1 {{ ansible_host_name }}"
+    owner: root
+    group: root
+    mode: '0644'
+
+...
